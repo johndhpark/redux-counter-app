@@ -3,13 +3,7 @@ import ReactDOM from "react-dom/client";
 import { Provider } from "react-redux";
 import App from "./App";
 import "./index.css";
-import counterReducer from "./store/counterSlice";
-
-const store = configureStore({
-	reducer: {
-		counter: counterReducer,
-	},
-});
+import store from "./store/index";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
