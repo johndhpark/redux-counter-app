@@ -34,10 +34,10 @@
 
 .header button {
   font-size: 1.25rem;
-  background-color: #ffbb00;
-  border: 1px solid #ffbb00;
+  background-color: #fb0;
+  border: 1px solid #fb0;
   padding: 0.5rem 1.5rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0 0 0 20%);
   color: #2c2922;
 }
 

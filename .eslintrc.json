@@ -1,0 +1,25 @@
+{
+  "ignorePatterns": ["src/**/*.css"],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["airbnb", "airbnb/hooks", "plugin:react/jsx-runtime", "prettier"],
+  "rules": {
+    "arrow-body-style": ["warn", "as-needed"],
+    "react/button-has-type": [
+      0,
+      {
+        "button": true,
+        "submit": true,
+        "reset": true
+      }
+    ],
+    "no-param-reassign": "off",
+    "react/function-component-definition": [
+      2,
+      { "namedComponents": ["function-declaration", "arrow-function"] }
+    ],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx"] }]
+  }
+}
